@@ -1,0 +1,245 @@
+.сontact {
+	padding: 104px 0 120px;
+	color: #222;
+}
+
+.contact__title {
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 120%;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.contact__title--red {
+	color: #d10014;
+}
+
+.form {
+	padding: 60px;
+	background-color: #fff;
+	border-radius: 32px;
+}
+
+.form__fieldset {
+	margin-bottom: 32px;
+	display: none;
+}
+
+.form__fieldset--active {
+	display: block;
+}
+
+.form__title {
+	margin-bottom: 32px;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+.form__radio-wrapper {
+	display: flex;
+	gap: 4px;
+	flex-wrap: wrap;
+	margin-bottom: 32px;
+}
+
+.form__radio-wrapper:last-child {
+	margin-bottom: 0;
+}
+
+.radio__input {
+	position: absolute;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.radio__label {
+	display: block;
+	padding: 12px 20px;
+	border-radius: 50px;
+	background: #f0f4f4;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+	border: 1px solid transparent;
+}
+
+.radio__label:hover {
+	background: #e4f0f0;
+}
+
+.radio__input:focus-visible + .radio__label {
+	border-color: #d10014;
+}
+
+.radio__input:checked + .radio__label {
+	background: #222;
+	color: #fff;
+}
+
+.form__months {
+	margin-bottom: 16px;
+	display: flex;
+	gap: 16px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+	color: #222;
+}
+
+.form__btn-month {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 140%;
+}
+
+.form__btn-month--active {
+	color: #d10014;
+	transform: scale(1.15);
+}
+
+.form__subtitle {
+	margin-bottom: 16px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 140%;
+}
+
+.form__input-wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 12px 8px;
+	margin-bottom: 32px;
+}
+
+.form__input {
+	padding: 12px 20px;
+	border-radius: 8px;
+	background-color: #f0f4f4;
+	border: 1px solid transparent;
+	color: inherit;
+	margin-bottom: 32px;
+}
+
+.form__input::placeholder {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+	color: #222;
+}
+
+.form__input:hover {
+	background-color: #f0f4f4;
+}
+
+.form__input:focus-visible {
+	border: #d0d0d0;
+}
+
+.form__info {
+	font-weight: 500;
+	line-height: 140%;
+	margin-bottom: 4px;
+}
+
+.form__info:last-child {
+	margin-bottom: 0;
+}
+
+.form__btn-wrapper {
+	display: flex;
+	gap: 8px;
+}
+
+.form__btn {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 12px 20px;
+	color: #222;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 140%;
+	border-radius: 50px;
+	background-color: #f0f4f4;
+}
+
+.form__btn--next {
+	background-color: #d10014;
+	color: #fff;
+}
+
+.form__btn--submit {
+	background-color: #d10014;
+	color: #fff;
+}
+
+/* .form__btn:hover {
+	background: #222;
+	color: #fff;
+} */
+
+.form__btn:focus-visible {
+	border: 1px solid #222;
+}
+
+.form__btn:disabled {
+	color: #222;
+	background: #f0f4f4;
+	opacity: 0.4;
+	pointer-events: none;
+}
+
+@media (max-width: 1080px) {
+	.сontact {
+		padding-top: 60px;
+	}
+
+	.contact__title {
+		font-size: 60px;
+	}
+
+	.form {
+		padding: 40px;
+	}
+
+	.form__title {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 900px) {
+	.сontact {
+		padding: 50px 0 100px;
+	}
+
+	.contact__title {
+		font-size: 48px;
+	}
+}
+
+@media (max-width: 660px) {
+	.сontact {
+		padding: 50px 0 80px;
+	}
+
+	.contact__title {
+		font-size: 32px;
+	}
+
+	.form {
+		padding: 24px 16px;
+		border-radius: 16px;
+	}
+
+	.form__input-wrapper {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 460px) {
+}
