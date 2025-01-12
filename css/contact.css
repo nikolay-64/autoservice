@@ -102,6 +102,10 @@
 	transform: scale(1.15);
 }
 
+.form__time {
+	display: none;
+}
+
 .form__subtitle {
 	margin-bottom: 16px;
 	font-size: 16px;
@@ -177,11 +181,6 @@
 	background-color: #d10014;
 	color: #fff;
 }
-
-/* .form__btn:hover {
-	background: #222;
-	color: #fff;
-} */
 
 .form__btn:focus-visible {
 	border: 1px solid #222;
